@@ -85,3 +85,11 @@ timeButtons.forEach(button => {
 
 // Initial render
 updateDisplay();
+
+document.addEventListener("keydown", (e) => {
+  // prevent page from scrolling
+  if (e.code === "Space") {
+    e.preventDefault();
+    timeEl.click(); // reuse existing click logic
+  }
+});

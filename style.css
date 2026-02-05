@@ -117,7 +117,7 @@ body {
   margin-bottom: 5px;
   border-radius: 8px;
   cursor: pointer;
-  text-align: center;
+  text-align: right;
   transition: transform 0.2s;
 }
 
